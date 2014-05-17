@@ -1,0 +1,85 @@
+* {
+	
+}
+body {
+	background-color: #ffffff;
+}
+#wrapper {
+	text-align: center;
+	padding-top: 16px;
+}
+.title {
+	font-weight: bold;
+	font-size: 21px;
+}
+.width50 {
+	width: 50%;
+}
+.width70 {
+	width: 70%;
+}
+.width90 {
+	width: 90%;
+}
+.width97 {
+	width: 90%;
+}
+.standings {
+	border-style: none;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+.standings th {
+	background-color: #f0f0f0;
+}
+.standings td, th {
+	border: 1px solid #000000;
+}
+.standings tr {
+	background-color: #f7f7f7;
+	height: 32px;
+}
+.standings .place {
+	width: 48px;
+	text-align: center;
+}
+.standings .team {
+	/*font-weight: bold;*/
+	padding: 0 8px;
+	font-size: 14px;
+}
+.standings .problems {
+	width: 64px;
+	text-align: center;
+}
+.standings .solved {
+	width: 64px;
+	text-align: center;
+}
+.standings .penalty {
+	width: 64px;
+	text-align: center;
+}
+.standings .problems .success {
+	font-size: 12px;
+}
+.standings .line0 {
+	background-color: #e0e0f0;
+}
+.standings .line1 {
+	background-color: #f7f7f7;
+}
+.standings .line2 {
+	background-color: #ffffff;
+	font-size: 12px;
+	height: 32px;
+}
+.standings .ac {
+	background-color: #a0ffa0;
+}
+.standings .wa {
+	background-color: #ffa0a0;
+}
+.standings .first-ac {
+	background-color: #f0ff70;
+}
